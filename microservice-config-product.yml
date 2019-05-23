@@ -14,7 +14,7 @@ mybatis:
 spring:
   profiles: dev # 开发环境
   application:
-    name: microservice-product-config123 # ******服务名*******
+    name: microservice-product-config # ******服务名*******
 
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
@@ -51,7 +51,7 @@ mybatis:
 spring:
   profiles: prod # 生产环境
   application:
-    name: microservice-product-config # ******服务名*******
+    name: microservice-product-config123 # ******服务名*******
 
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
